@@ -1,0 +1,38 @@
+.flex{
+    display: flex;
+    background-color: rgb(20, 39, 57);
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    
+
+}
+.line2{
+    margin-left: 110px;
+
+}
+.flex img{
+    margin-right: 300px;
+}
+.head{
+ margin: 100px;
+ margin-left: 500px;
+
+ 
+}
+h2{
+    font-size: 90px;
+    font-family: cursive;
+    font-weight: bolder;
+    color: rgb(255, 252, 248);
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+}
+.r1{
+    width: 500px;
+}
+.r2{
+    width: 500px;

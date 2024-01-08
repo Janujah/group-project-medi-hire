@@ -1,0 +1,17 @@
+body{
+    position: relative;
+}
+.col{
+    justify-content: center;
+
+}
+h2{
+  font-size: 70px;
+  margin-top: 120px;
+}
+.line2{
+   margin-left: 100px;
+   margin-top: 10px;
+
+}
+
