@@ -1,43 +1,32 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+
 
 }
 .header{
     position: fixed;
-    top: 5px;
-    left: 2px;
+    top: 0;
+    left: 10px;
     width: 100%;
-    padding: 2px ;
+    padding: 20px ;
     background-color: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;
-
-  
+    z-index: 100; 
 }
 .logo{
     font-size: 25px;
-    color: #ededed;
+    color: #0f0101;
     text-decoration: none;
     font-weight: 600;
     
 }
-.navbar a{
-    font-size: 18PX;
-    color: #ededed;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 35px;
-    transition: .3s;
 
-}
-.navbar a:hover,
-.navbar a.active {
-    color: #00abf0;
-
-}
 
 .contact{
     position: relative;
@@ -47,9 +36,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color:rgb(20, 54, 75); 
-    /* background: url(1234.avif); */
-    background-image: url(123.jpg) no-repeat;
+    background-color:rgb(176, 222, 206);    
+    /* background: url(log4.jpg) no-repeat; */
+    
+
+
 }
 .contact .content{
     max-width: 800px;
@@ -57,14 +48,24 @@
 
 }
 .contact .content h2{
-    font-size: 36px;
-    font-weight: 500;
-    color: #fff;
+    font-size: 56px;
+    font-weight: bold;
+    border: 2px solid rgb(56, 107, 159);
+    color: #0f0101;
+}
+.contact .content h2::first-letter{
+    font-size: 57px;
+ 
+   border-right: transparent;
+   padding-left: 5px;
+   color: #fd4766;
+
+
 }
 .contact .content p{
 
-    font-weight: 300;
-    color: #fff;
+    font-weight: 550;
+    color: #0f0101;
 }
 .container{
     width: 100%;
@@ -82,8 +83,10 @@
 }
 .container .contactinfo .box{
     position: relative;
-    padding: 20px 0;
+    padding: 20px;
     display: flex;
+    margin-right: 50px;
+    
 
 }
 .container .contactinfo .box .icon{
@@ -95,36 +98,41 @@
     align-items: center;
     border-radius: 50%;
     font-size: 22px;
-    
 }
 .container .contactinfo .box .text{
     display: flex;
-    margin-left: 10px;
+    margin-left: 20px;
     font-size: 16px;
-    color: #fff;
+    color: #3b3167;
     font-weight: 300;
 }
 .container .contactinfo .box .text h3{
     font-weight: 500;
-    color: #00bcd4;
+    color: #0f0101;
     
 }
 .contactform{
-    width: 40%;
-    padding: 40px;
-    background: #fff;
+    width: 500px;
+    padding: 70px;
+    background:  #62c4e5;
+    margin: 20px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-left: -40px;
+    
+    
 
 }
 .contactform h2{
-    font-size: 30px;
-    color: #333;
-    font-weight: 500;
+    font-size: 40px;
+    color: #0f0101;
+    font-weight: 600;
 
 }
 .contactform .inputbox{
     position: relative;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 20px;
 
 }
 .contactform .inputbox input,
@@ -132,10 +140,10 @@
 
 {
     width: 100%;
-    padding: 5px 0;
+    padding: 5px 0px;
     font-size: 16px;
     margin: 10px;
-    border: none;
+    border: 3px;
     border-bottom: 2px solid #333;
     outline: none;
     resize: none;
@@ -161,23 +169,38 @@
 
 
 {
-    color: rgb(21, 21, 102);
+    color: #e91e63;
     font-size: 12px;
     transform: translate3d(-20px);
 }
 .contactform .inputbox input [type="sumbit"]{
     width: 100px;
-    background-color: #00bcd4;
+    background-color: #9bdae2;
     color: #fff;
     border: none;
     cursor: pointer;
     padding: 10px;
     font-size: 18px;
 }
+ @media (max-width:991px){
+    .contact{
+        padding: 50px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container .contactinfo{
+        margin-bottom: 40px;
+    }
+    .container .contactinfo{
+        width: 100%;
+    }
+    .
+}
 
 .home-sci{
     position: absolute;
-    bottom: 40px;
+    bottom: 50px;
     width: 220px;
     display: flex;
     justify-content: space-between;
@@ -185,16 +208,16 @@
 }
 .home-sci a {
     position: relative;
-    display: inline-flex;
+    display: inline-flex; 
     justify-content: center;
     align-items: center;
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #00abf0;
+    border: 2px solid #ca63af;
     border-radius: 50%;
     font-size: 20px;
-    color: #00abf0;
+    color: #461138;
     text-decoration: none;
     z-index: 1;
     overflow: hidden;
@@ -213,12 +236,11 @@
     left: 0;
     width: 0;
     height: 100%;
-    background: #00abf0;
+    background: #04415a;
     z-index: -1;
-    transition: .5s;
+    transition: .3s;
 
 }
 .home-sci a:hover::before{
     width: 100%;
 }
-
