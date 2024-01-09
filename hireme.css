@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+main{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    row-gap: 80px;
+}
+.card-img-top{
+    
+        width: 300px;
+        height: 300px;
+}
+.btn-primary{
+    width: 150px;
+    margin-left: 50px; 
+}
+.card-title{
+    text-align: center;
+
+}
+ body{
+    background-image: url(assets/bg.jpg );
+    
+}
+.row{
+    margin-top: 50px;
+}
+.card:hover{
+    transition:  0.7s;
+    transform: scale(1.2);
+    background-color: rgb(147, 193, 236);
+}
+.head{
+    font-size: 100px;
+    color: rgb(51, 91, 234);
+    
+}
+.card{
+    margin-left: 70px;
+    margin-top: 20px;
+}
