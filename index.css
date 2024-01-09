@@ -2,7 +2,8 @@ body{
     font-family: 'Poppins', sans-serif;
 	/* font-weight: 400;
 	font-size:14px; */
-	color:#888;}
+	/* color:#888;  */
+}
 
 
 /* #scrollUp {
@@ -25,6 +26,10 @@ body{
 	background-color:#fff;
 	position:relative;
 }
+.header-inner{
+	/* position: fixed; */
+	height: 80px;
+}
 
 .header .navbar-collapse{
 	padding:0;
@@ -33,7 +38,9 @@ body{
 .header .topbar{
 	background-color:#fff;
 	border-bottom:1px solid #eee;
+    /* position: fixed; */
 }
+
 .header .topbar{
 	padding:15px 0;
 }
