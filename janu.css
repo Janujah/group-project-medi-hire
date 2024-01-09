@@ -1,0 +1,133 @@
+.home body{
+    position: relative;
+}
+
+
+.home h2{
+  font-size:80px;
+  margin-top: 120px;
+  margin-left: 300px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(249, 248, 246);
+}
+.home .line2{
+   margin-left: 400px;
+   margin-top: 10px;
+
+}
+.home .image2{
+  height: 610px;
+  margin-left: 0;
+}
+.home .row{
+  padding: 0;
+}
+.home .text-1{
+  font-size: 60px;
+  margin-left: 400px;
+  font-weight: 1000;
+}
+.home .text1-1{
+  font-size: 60px;
+  margin-left: 730px;
+  font-weight: 1000;
+
+}
+.home .text3-1{
+  font-size: 60px;
+  margin-left: 480px;
+  font-weight: 1000;
+
+}
+.home .back{
+  background-image: url(pngtree-medical-medicine-stethoscope-white-background-picture-image_2390502.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.home h5{
+  font-size: 50px;
+}
+.home label{
+  font-size: 35px;
+}
+.home .row1{
+  display: flex;
+   background-color: rgb(20,39,57); 
+   
+
+}
+.home .full{
+  display: flex;
+  background-color: rgb(20,39,57); 
+
+
+}
+.home .img1{
+    height: 800px;
+    width: 100%;
+    margin-left: 0;
+}
+.home .carousel-indicators{
+  width: 0;
+}
+.home .img2{
+  margin-left: 100px;
+}
+
+/* .slideshow .img1{
+  width: 500px;
+  height:500px;
+  margin-bottom: 100px;
+}
+.slideshow .align{
+  display: flex;
+  justify-content: center;
+}
+.slideshow .text{
+  margin-top: 235px;
+}
+.slideshow .text1{
+  margin-top: 120px;
+  margin-left: 0;
+  color: aliceblue;
+
+}
+.slideshow .text1 h2{
+  font-size: 80px;
+}
+.slideshow .text2{
+  margin-top: 190px;
+  color: aliceblue;
+
+}
+.slideshow .text2 h2{
+  font-size: 80px;
+}
+.slideshow .img2{
+  width: 500px;
+  height: 500px;
+  margin-bottom: 250px;
+}
+.slideshow .text3{
+  margin-top: 160px;
+  margin-left: 0;
+  color: rgb(10, 11, 11);
+
+}
+.slideshow .text3 h2{
+  font-size: 80px;
+}
+.slideshow .text4{
+  margin-top: 160px;
+  margin-left: 0;
+  color: rgb(83, 27, 5);
+
+}
+.slideshow .text4 h2{
+  font-size: 80px;
+}
+.slideshow .link{
+  color: black;
+}
+ */
