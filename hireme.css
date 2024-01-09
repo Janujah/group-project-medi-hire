@@ -1,85 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
 
-/* project started */
-.main{
-    margin-left: 10rem;
-    height: 100vh;
-    /* margin-top: 30rem; */
 }
-.projectphotos{
+main{
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr ; */
-    cursor: pointer;
-
+    grid-template-columns: auto auto auto auto auto;
+    row-gap: 80px;
 }
-
-.box1 img{
-    width: 450px;
-    height: 500px;
-    background-color: rgb(20,39,57);
-    border: 15px solid rgb(255, 255, 255);
-    transition: 0.90s;
+.card-img-top{
     
-
+        width: 300px;
+        height: 300px;
 }
-.box1 img:hover{
-    background-color: rgb(219, 225, 232);
+.btn-primary{
+    width: 150px;
+    margin-left: 50px; 
 }
-.heading{
-    font-size: 50px;
-    color:rgb(9, 202, 250);
-
-}
-.para{
-    font-size: 30px;
-    letter-spacing: 1px;
-    color: wheat;
-    align-items: center;
+.card-title{
     text-align: center;
+
 }
-@media(max-width < 600px){
-    .main{
-        text-align: justify;
-        margin-left: -1px;
-
-    }
-    .box1 img{
-        width: 500px;
-        height: 400px;
-       
-
-    }
+ body{
+    background-image: url(assets/bg.jpg );
     
-    .para{
-        font-size: 20px;
-    }
-    .heading{
-        font-size: 25px;
-        text-align: center;
-    }
 }
-@media(min-width:600px){
-    .projectphotos{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
+.row{
+    margin-top: 50px;
 }
-.secondline{
-    /* background-color: black; */
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    margin-top: -300px;
-    margin-left: 10rem;
-    cursor: pointer;
-    margin-top: 1px;
+.card:hover{
+    transition:  0.7s;
+    transform: scale(1.2);
+    background-color: rgb(147, 193, 236);
 }
-.projectphotos h1{
-    margin-left: 30px;
-    background-color: rgb(255, 255, 255);
-
-
+.head{
+    font-size: 100px;
+    color: rgb(51, 91, 234);
+    
 }
-.projectphotos p{
-    margin-left: 30px;
-    text-align: left;
-    background-color: rgb(255, 255, 255);
+.card{
+    margin-left: 70px;
+    margin-top: 20px;
 }
